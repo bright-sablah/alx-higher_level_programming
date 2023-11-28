@@ -9,11 +9,14 @@
 
 int check_cycle(listint_t *head)
 {
-	listint_t *single_parse = head;
-	listint_t *double_parse = head->next;
+	listint_t *single_parse;
+	listint_t *double_parse;
 
 	if (head == NULL || head->next == NULL)
 		return (0);
+
+	single_parse = head;
+	double_parse = head->next;
 
 	while (single_parse != double_parse)
 	{
