@@ -1,4 +1,4 @@
-<b>0x02. Python - import & modules</b>
+<b>0x02. Python - import & modules </b>
 
 0. imports function and prints result of addition
 
